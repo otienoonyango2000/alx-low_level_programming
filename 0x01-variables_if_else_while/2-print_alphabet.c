@@ -3,14 +3,10 @@
 int main()
 
 {
-	char ch= 'a';
-	
-	while (ch<= 'z')
-	{
-	printf("%c\n", ch);
-	ch++;
-
-	}
+	int ch;
+	for(ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+		putchar('\n');
 	
 	return (0);
 }	
