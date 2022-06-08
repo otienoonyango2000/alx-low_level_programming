@@ -7,7 +7,7 @@ int main()
 	
 	while (ch<= 'z')
 	{
-	printf("%c", ch);
+	printf("%c\n", ch);
 	ch++;
 
 	}
