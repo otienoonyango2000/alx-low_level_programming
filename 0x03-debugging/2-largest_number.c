@@ -10,26 +10,25 @@
 
 
 int main()
-
-{
-	double int a, int b, int c;
+{       
+	int a, b, c;
 	
 	printf("print different numbers: ");
-	scanf("%1f %1f %1f", &int a, &int b, &int c);
+	scanf("%d %d %d", &a, &b, &c);
 
 	if(a > b && b > c)
-	{
-		printf("%.2f is largest number.", int a);
+	
+		printf("%d is largest number.", a);
 
-	}
-	else if (b > a && a > c)
-	{
-		printf("%.2f is largest number.", int b);
-	}
-	else
-	{
-		printf("%.2f is largest number.", int c);
-	}
+	
+	if (b > a && a > c)
+	
+		printf("%d is largest number.", b);
+	
+	if(c > a && a > b)
+	
+		printf("%d is largest number.", c);
+	
 
 	return (0);
 }
